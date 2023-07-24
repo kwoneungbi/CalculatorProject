@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <input type="text" class="display" />
+      <div class="keypad">
+        <div>
+          <button id="num1" onclick="btn(1)">1</button>
+          <button id="num2" onclick="btn(2)">2</button>
+          <button id="num3" onclick="btn(3)">3</button>
+          <button id="addOperator" onclick="addOperator()">+</button>
+        </div>
+        <div>
+          <button id="num4" onclick="btn(4)">4</button>
+          <button id="num5" onclick="btn(5)">5</button>
+          <button id="num6" onclick="btn(6)">6</button>
+          <button id="subtractOperator" onclick="subtractOperator()">-</button>
+        </div>
+        <div>
+          <button id="num7" onclick="btn(7)">7</button>
+          <button id="num8" onclick="btn(8)">8</button>
+          <button id="num9" onclick="btn(9)">9</button>
+          <button id="multiplyOperator" onclick="multiplyOperator()">*</button>
+        </div>
+        <div>
+          <button>AC</button>
+          <button id="num0" onclick="btn(0)">0</button>
+          <button id="result">=</button>
+          <button id="divideOperator" onclick="divideOperator()">/</button>
+        </div>
+      </div>
+    </div>
+    <link rel="stylesheet" href="style.css".css">
+    <script src="./calculator.js"></script>
+  </body>
+</html>
