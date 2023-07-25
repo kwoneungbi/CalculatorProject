@@ -21,8 +21,9 @@ body {
 .calculator form {
   display: grid;
   grid-template-columns: repeat(4, 65px);
+  /* repeat() 함수를 사용하여 반복되는 크기 설정 가능 */
   grid-auto-rows: 65px;
-  grid-gap: 5px;
+  grid-gap: 5px; /* 그리드 아이템 사이의 간격 */
 }
 
 .calculator form input {
